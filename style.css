@@ -1,0 +1,268 @@
+* {
+
+    box-sizing: border-box;
+
+    color: #333;
+
+}
+
+
+
+
+body {
+
+    background-color: #edfa79;
+
+    margin: 0;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+.content-header {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+
+.content-body {
+    padding-top: 25px;
+    float: left;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+
+
+
+.wrapper-1 {
+    float: right;
+    
+
+    display: flex;
+
+    width: 66.6%;
+
+    justify-content: space-around;
+
+}
+
+
+
+
+.wrapper-2 {
+    float: right;
+
+    display: flex;
+
+}
+
+
+
+
+.chicken,
+
+.beef,
+
+.sushi {
+    float: right;
+
+    background-color: grey;
+
+    height: 250px;
+
+    width: 430px;
+
+    padding: 0 0 10px 10px;
+
+    margin: 0 10px;
+
+}
+
+
+
+
+#chicken {
+    font-size: 27px;
+
+    float: right;
+    
+    background-color: aliceblue;
+
+    width: fit-content;
+
+    padding: 0
+
+}
+
+
+
+
+#beef {
+    float: right;
+
+    font-size: 27px;
+
+    background-color: aliceblue;
+
+    width: fit-content;
+
+    padding: 0;
+
+}
+
+
+
+
+#sushi {
+    float: right;
+    
+
+    background-color: aliceblue;
+
+    width: fit-content;
+
+    padding: 5px 15px;
+
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    body {
+
+        background-color: blue;
+
+    }
+
+
+
+
+    .content-body {
+
+        display: flex;
+
+        text-align: center;
+
+        flex-direction: column;
+ 
+
+    }
+
+
+
+
+    .wrapper-1 {
+
+        width: 100%;
+
+    }
+
+
+
+
+    .chicken,
+
+    .beef {
+
+        background-color: aquamarine;
+
+        height: 300px;
+
+        width: 45%;
+
+        padding:  40px 0 40px 0;
+
+        margin: 20px;
+
+    }
+
+
+
+
+    .sushi {
+
+        background-color: aquamarine;
+
+        height: 300px;
+
+        width: 100%;
+
+        padding: 20px;
+
+        margin: 20px;
+
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    body {
+
+        background-color: olive;
+
+    }
+
+
+
+
+    .wrapper-1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+
+
+    .wrapper-2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+
+
+    .chicken,
+
+    .beef,
+
+    .sushi {
+
+        background-color: aquamarine;
+
+        height: 300px;
+
+        width: 100%;
+
+        padding:  40px 0 40px 0;
+
+        margin: 20px;
+
+    }
+
+}
